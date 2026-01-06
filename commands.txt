@@ -1,0 +1,21 @@
+Task 1:
+vanshpanchal@intellisolar-Latitude-5511:~$ mkdir -p Linux_Capstone_Vansh/{src/scripts,config,logs,backup}
+
+Task 2:
+vanshpanchal@intellisolar-Latitude-5511:~$ touch Linux_Capstone_Vansh/logs/system_info.txt
+vanshpanchal@intellisolar-Latitude-5511:~$ date >> Linux_Capstone_Vansh/logs/system_info.txt 
+vanshpanchal@intellisolar-Latitude-5511:~$ time >> Linux_Capstone_Vansh/logs/system_info.txt
+vanshpanchal@intellisolar-Latitude-5511:~$ free -h >> Linux_Capstone_Vansh/logs/system_info.txt 
+vanshpanchal@intellisolar-Latitude-5511:~$ df -h >> Linux_Capstone_Vansh/logs/system_info.txt 
+
+Task 3:
+vanshpanchal@intellisolar-Latitude-5511:~$ touch Linux_Capstone_Vansh/config/database.cfg
+vanshpanchal@intellisolar-Latitude-5511:~$ chmod 640 Linux_Capstone_Vansh/config/database.cfg 
+vanshpanchal@intellisolar-Latitude-5511:~$ cd Linux_Capstone_Vansh/config/
+vanshpanchal@intellisolar-Latitude-5511:~/Linux_Capstone_Vansh/config$ touch secret_key.pem
+
+Task 4:
+vanshpanchal@intellisolar-Latitude-5511:~/Linux_Capstone_Vansh/config$ ps aux
+vanshpanchal@intellisolar-Latitude-5511:~/Linux_Capstone_Vansh/config$ ps aux | grep -E "bash|terminal"
+vanshpanchal@intellisolar-Latitude-5511:~$ ps aux | grep -E "bash|terminal" > Linux_Capstone_Vansh/src/active_processes.txt
+

@@ -1,0 +1,2 @@
+vanshpa+    4714  0.0  0.0  20952  6364 pts/0    Ss   10:14   0:00 /usr/bin/bash
+vanshpa+    7319  0.0  0.0  18148  2508 pts/0    S+   12:40   0:00 grep --color=auto -E bash|terminal
